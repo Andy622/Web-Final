@@ -18,8 +18,8 @@ $(document).ready(function(){
 
     $("#box1").on("mouseover", function(){
         $("#box1").css({
-          "background-color": "#fff",
-          "color": "#0DFF76"
+          "background-color": "#000",
+          "color": "#FFF"
 
         });
     
@@ -27,24 +27,24 @@ $(document).ready(function(){
     });
     $("#box2").on("mouseover", function(){
         $("#box2").css({
-          "background-color": "#fff",
-          "color": "#0DFF76"
+          "background-color": "#000",
+          "color": "#FFF"
 
         });
     
     });
     $("#box3").on("mouseover", function(){
         $("#box3").css({
-          "background-color": "#fff",
-          "color": "#0DFF76"
+          "background-color": "#000",
+          "color": "#FFF"
 
         });
 
     });
     $("#box4").on("mouseover", function(){
         $("#box4").css({
-          "background-color": "#fff",
-          "color": "#0DFF76"
+            "background-color": "#000",
+            "color": "#FFF"
 
         });
 
@@ -53,8 +53,8 @@ $(document).ready(function(){
 
     $(".box").on("mouseout", function(){
         $(".box").css({
-            "background-color": "#CB0011",
-            "color": "#0ff"
+            "background-color": "#000",
+            "color": "#FFF"
 
         });
     });
