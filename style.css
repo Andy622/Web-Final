@@ -16,3 +16,8 @@
 .nav > li > a:hover{
     color: rgb(255, 255, 255)
 }
+
+.table:hover {
+    background-color: #ffff00;
+    color: #000;
+}
