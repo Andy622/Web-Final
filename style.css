@@ -32,17 +32,12 @@ body {
 }
 
 #table {
-    background-color: black;
+    width: 25%;
     color: red;
 }
 
-.table:hover {
-    background-color: #ffff00;
-    color: #000;
-}
-
 #table:hover {
-    background-color: #c22e00;
+    background-color: #f42208;
     color: #000;
 }
 
@@ -68,5 +63,4 @@ p {
 
 td {
     text-align: center;
-    text-decoration: bold;
 }
