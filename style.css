@@ -1,10 +1,18 @@
-html {
+head {
+   background-color: black;
+   background-size: auto, 100px;
+   font-family: 'Rammetto One', cursive;
+}
+
+body {
     background-image: url("background.png");
-    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Rammetto One', cursive;
 }
 
 h1{
-    margin: 5px;
+    margin: 2px;
 }
 
 .nav{
@@ -33,23 +41,55 @@ h1{
 }
 
 #table {
-    background-color: black;
+    width: 25%;
     color: red;
 }
 
-.table:hover {
-    background-color: #ffff00;
-    color: #000;
-}
-
 #table:hover {
-    background-color: #ffff00;
+    background-color: #f42208;
     color: #000;
 }
 
+.box {
+    width: 50%;
+    right: 100px;
+    bottom: 100px;
+}
+
+#Logo {
+    width: 25%;
+}
+
+p {
+    right: 0px;
+    bottom: 0px;
+    color: red;
+}
+
+.tableHead {
+    border-bottom: 2px, dashed white;
+}
+
+td {
+    text-align: center;
+}
 #slideshow{
     width: 500px;
     height: 350px;
-    margin-left: 35%;
-    margin-top: 500px;
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+#Logo{
+    position: fixed;
+    right: 500px;
+    bottom: 225px;
+}
+
+#about{
+    position: fixed;
+    bottom: 10px;
+    right: 500px;
+    width:25%;
+    text-align: center;
 }
