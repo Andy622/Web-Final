@@ -1,6 +1,12 @@
-html {
+head {
+   background-color: black;
+   background-size: auto, 100px;
+}
+
+body {
     background-image: url("background.png");
-    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .nav{
@@ -36,6 +42,31 @@ html {
 }
 
 #table:hover {
-    background-color: #ffff00;
+    background-color: #c22e00;
     color: #000;
+}
+
+.box {
+    width: 50%;
+    right: 100px;
+    bottom: 100px;
+}
+
+#Logo {
+    width: 25%;
+}
+
+p {
+    right: 0px;
+    bottom: 0px;
+    color: red;
+}
+
+.tableHead {
+    border-bottom: 2px, dashed white;
+}
+
+td {
+    text-align: center;
+    text-decoration: bold;
 }
