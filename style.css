@@ -1,20 +1,21 @@
-head {
-   background-color: black;
-   background-size: auto, 100px;
+html {
+    background-image: url("background.png");
+    width: 100%;
 }
 
-body {
-    background-image: url("background.png");
-    background-size: cover;
-    background-repeat: no-repeat;
+h1{
+    margin: 5px;
 }
 
 .nav{
     background-color: rgb(255, 0, 0);
     color: rgb(0, 0, 0);
-    padding: 0;
-    margin: 0;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
     font-size: 15pt;
+    text-align: center;
+    position: fixed;
 }
 
 .nav > li{
@@ -32,35 +33,23 @@ body {
 }
 
 #table {
-    width: 25%;
+    background-color: black;
     color: red;
 }
 
-#table:hover {
-    background-color: #f42208;
+.table:hover {
+    background-color: #ffff00;
     color: #000;
 }
 
-.box {
-    width: 50%;
-    right: 100px;
-    bottom: 100px;
+#table:hover {
+    background-color: #ffff00;
+    color: #000;
 }
 
-#Logo {
-    width: 25%;
-}
-
-p {
-    right: 0px;
-    bottom: 0px;
-    color: red;
-}
-
-.tableHead {
-    border-bottom: 2px, dashed white;
-}
-
-td {
-    text-align: center;
+#slideshow{
+    width: 500px;
+    height: 350px;
+    margin-left: 35%;
+    margin-top: 500px;
 }
