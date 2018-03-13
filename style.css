@@ -64,7 +64,7 @@ h1{
 p {
     right: 0px;
     bottom: 0px;
-    color: #b40c00;
+    color: #f00;
 }
 
 .tableHead {
@@ -127,3 +127,15 @@ padding-top: 175px;
     width: 500px;
     text-align: center;
 }
+
+#contact{
+    background-color: #000;
+    font-size: 24;
+    padding: 7px;
+    width: 30%;
+    text-align: center;
+    margin-left: 500px;
+    transition: all .2s ease-in-out; }
+
+
+#contact:hover { transform: scale(3.1); }
