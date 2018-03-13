@@ -56,7 +56,7 @@ h1{
 
 .box {
     width: 50%;
-    right: 100px;
+    right: 300px;
     bottom: 100px;
     position: fixed;
 }
@@ -93,16 +93,18 @@ td {
 #Logo{
     position: fixed;
     width: 25%;
-    right: 500px;
-    bottom: 225px;
+    right: 600px;
+    bottom: 250px;
 }
 
 #about{
+    background-color: #000;
     position: fixed;
     bottom: 10px;
-    right: 500px;
-    width:25%;
+    right: 550px;
+    width:30%;
     text-align: center;
+    padding: 7px;
 }
 #homepar{
     background-color: #000;
@@ -111,5 +113,17 @@ td {
     margin-bottom: 0px;
     margin-left: 400px;
     width: 750px;
+    text-align: center;
+}
+#box{
+padding-top: 175px;
+}
+#explain{
+    background-color: #000;
+    padding: 7px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 500px;
+    width: 500px;
     text-align: center;
 }
