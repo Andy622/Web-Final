@@ -64,7 +64,7 @@ h1{
 p {
     right: 0px;
     bottom: 0px;
-    color: red;
+    color: #b40c00;
 }
 
 .tableHead {
@@ -76,10 +76,18 @@ td {
 }
 
 #slideshow{
+    float: left;
     width: 500px;
     height: 350px;
-    margin-left: 500px;
-    margin-top: 150px;
+    margin-left: 400px;
+    margin-top: 10px;
+}
+#seen{
+    color: #fff;
+    margin-left: 400px;
+    padding-top: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 #Logo{
@@ -94,5 +102,14 @@ td {
     bottom: 10px;
     right: 500px;
     width:25%;
+    text-align: center;
+}
+#homepar{
+    background-color: #000;
+    padding: 10px 5px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 400px;
+    width: 750px;
     text-align: center;
 }
